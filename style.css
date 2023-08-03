@@ -1,0 +1,41 @@
+body {
+    font-family:'The Nautigal','Times New Roman', 'Times, serif', cursive;
+    background-color: black;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.gamegrid {
+   gap: 5px;
+   align-items: center;
+   justify-content: center;
+    display:grid;
+    width: 297px;
+    height: 290px;
+   border: 1px solid rgb(0, 0, 0);
+    color:white;
+    grid-template-areas: "1 2 3";
+  
+   background-color: purple;
+   border-radius: 10px;
+   
+}
+
+.box {
+   
+    
+    font-size: 5rem;
+    text-align:center;
+    
+    height:97px;
+    width:97px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(238, 226, 226);
+  
+}
+
+.boxfont {
+   
+    margin-right: 15px;
+}
